@@ -19,3 +19,14 @@ module "network" {
   subnet_address_prefixes   = var.subnet_address_prefixes
   allowed_ssh_ip            = var.allowed_ssh_ip
 }
+
+module "compute" {
+  source = "./modules/compute"
+
+  resource_group_name = azurerm_resource_group.this.name
+  location            = var.location
+  vm_name             = var.vm_name
+  subnet_id           = module.network.subnet_id
+  admin_username      = var.admin_username
+  ssh_public_key_path = var.ssh_public_key_path
+}

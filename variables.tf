@@ -33,3 +33,18 @@ variable "allowed_ssh_ip" {
   description = "IP autorisée pour SSH"
   type        = string
 }
+
+variable "vm_name" {
+  description = "Nom de la VM"
+  type        = string
+}
+
+variable "admin_username" {
+  description = "Utilisateur admin de la VM"
+  type        = string
+}
+
+variable "ssh_public_key_path" {
+  description = "Chemin vers la clé SSH publique"
+  type        = string
+}
