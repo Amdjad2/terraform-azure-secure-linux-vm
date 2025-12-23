@@ -1,0 +1,7 @@
+resource_group_name     = "rg-secure-vm-dev"
+vnet_name               = "vnet-secure-dev"
+vnet_address_space      = ["10.0.0.0/16"]
+subnet_name             = "subnet-vm"
+subnet_address_prefixes = ["10.0.1.0/24"]
+
+allowed_ssh_ip = "X.X.X.X/32"
