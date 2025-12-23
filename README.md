@@ -1,4 +1,4 @@
-
+m
 Projet Azure Terraform Amdjad Said
 
 Ce projet a pour but de démontrer mes capacités à utiliser la solution IAC Terraform connectée à un compte Azure Microsoft.
@@ -20,5 +20,4 @@ Installation de Terraform et Azure CLI.
 
 	IV. Difficultés
 
-
-
+- Connexion ssh restreint après création du NSG, autoriser la connexion à l'IP locale dans le fichier terraform.tfvars
