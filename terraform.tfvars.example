@@ -5,3 +5,7 @@ subnet_name             = "subnet-vm"
 subnet_address_prefixes = ["10.0.1.0/24"]
 
 allowed_ssh_ip = "X.X.X.X/32"
+
+vm_name             = "vm-secure-dev"
+admin_username      = "azureuser"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
