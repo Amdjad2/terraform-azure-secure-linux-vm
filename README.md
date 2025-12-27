@@ -6,7 +6,7 @@ Ce projet a pour but de démontrer mes capacités à utiliser la solution IAC Te
 	I. Architecture
 
 Déploiement automatisé d’une VM Linux sécurisée sur Azure avec Terraform (réseau isolé, NSG restrictif, SSH clé-only)
-
+Réalisation à partir d'une VM Debian déployée sur Azure.
 	II. Prérequis
 
 - Terraform
@@ -41,4 +41,4 @@ terraform apply
 
 	VII. Difficultés
 
-- Connexion ssh restreint après création du NSG, autoriser la connexion à l'IP locale dans le fichier terraform.tfvars
+- Connexion ssh restreinte après création du NSG, autoriser la connexion à l'IP locale dans le fichier terraform.tfvars
